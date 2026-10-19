@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { -webkit-tap-highlight-color: transparent; }
+body { @apply bg-cream text-forest-900 font-sans antialiased; }
+.btn { @apply inline-flex items-center justify-center rounded-full px-5 py-3 font-bold transition active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed; }
